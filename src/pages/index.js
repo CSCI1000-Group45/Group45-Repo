@@ -9,24 +9,22 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className='title'>Congratulations! You've set up your webapp!</h1>
+        <h1 className='title'>Group 45's Webpage Project</h1>
 
         <p className='description'>
-          Get started by editing <code>src/pages/index.js</code> to be your
-          project home page.
+          By Liam Sweeney, Ephram Cukier, Nick O'Leary, and Lance Kludge
         </p>
-        <p className='description2'>
-          Next, each team member will create their own about me file in the
-          pages directory:{' '}
-        </p>
-        <code>src/page/teamMemberName.js</code>
+        
 
         <div className='grid'>
           <a href='/TomHolland ' className='card'>
             <h3>Example About Me Page &rarr;</h3>
             <p>Click here to navigate to an example page</p>
           </a>
-
+          <a href='/NickO ' className='card'>
+            <h3>Nick O'Leary's Page &rarr;</h3>
+            <p>hamburger</p>
+          </a>
           <a
             href='https://github.com/vedant29/Project-CSCI-1000'
             className='card'>
@@ -60,17 +58,14 @@ export default function Home() {
         </div>
       </main>
 
-      <footer>
-        <a href='' target='_blank' rel='noopener noreferrer'>
-          Copyright CSCI 1000 2023
-        </a>
-      </footer>
+      
 
       <style jsx>{`
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
           display: flex;
+          background: #f0f0f0;
           flex-direction: column;
           justify-content: center;
           align-items: center;
@@ -78,6 +73,7 @@ export default function Home() {
 
         main {
           padding: 5rem 0;
+          background: #f0f0f0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -90,6 +86,7 @@ export default function Home() {
           height: 100px;
           border-top: 1px solid #eaeaea;
           display: flex;
+          background: #f0f0f0;
           justify-content: center;
           align-items: center;
         }
@@ -155,6 +152,7 @@ export default function Home() {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
+          
 
           max-width: 800px;
           margin-top: 3rem;
@@ -207,6 +205,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
+          
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
