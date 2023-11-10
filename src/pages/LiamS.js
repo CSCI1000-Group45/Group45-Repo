@@ -1,7 +1,7 @@
 export default function examplePage() {
     return (
       <div className='container'>
-        <title>Website</title>
+        <title>Froggy page</title>
         <link rel='icon' href='/favicon.ico' />
 
         <main>
@@ -10,18 +10,24 @@ export default function examplePage() {
           </div>
           <img
             className='pic'
-            src='https://postimg.cc/bsw0FRHF'
+            src='https://i.postimg.cc/xTMHzXnn/image-2023-11-09-173334927.png'
             alt='froigs'
           />
 
-          <p className='description'>
+          <p className = 'description'>
             Man I Love Frogs!
+          </p>
+          <p>  
             They're so dumb, there is nothing behind those eyes and I love it. Have you ever seen those videos of frogs jumping and failing miserably? Like they just faceplant?
+          </p>
+          <p>
             Or those videos where frogs can't even catch a stationary meal? There is nothing going on in that head. Every frog in the world shares a braincell and one of them lost it.
+          </p>
+          <p>
             They're also super cute and adorable. Most of them at least. Some are creepy. 
           </p>
 
-          <p>
+          <center>
                 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⠉⢳⣰⠋⠙⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢧⡀⠁⢀⡜⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠷⠋⠀⠀⠀⠀⠀⠀⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -44,13 +50,13 @@ export default function examplePage() {
                 ⠀⠀⠀⠀⠀⠸⣯⣦⣤⣤⣴⣼⣇⠀⠀⠀⣷⡀⠀⠀⠀⣸⡏⠀⢠⠀⢸⣷⣤⣤⣾⠏⠀⠀⠀⠀⠀
                 ⠀⠀⠀⠀⠀⠀⠈⠉⠉⠉⠉⠀⢹⣆⣷⣴⣾⡇⠀⠀⠀⢸⡇⢀⣼⠼⠾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠛⠃⠀⠀⠀⠀⠀⠀⠱⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-          </p>
+          </center>
 
           <a className='button' href='/'>
             <p>No more frogs :|</p>
           </a>
 
-          <a className='frog_button' href='https://www.google.com/search?q=very+round+frog&tbm=isch&ved=2ahUKEwjIt9XHjriCAxWYz8kDHZljDkkQ2-cCegQIABAA&oq=very+round+frog&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BAgjECc6BggAEAcQHjoGCAAQCBAeOggIABCxAxCDAToECAAQAzoICAAQgAQQsQM6BwgAEIoFEEM6CggAEIoFELEDEEM6CwgAEIAEELEDEIMBOg0IABCKBRCxAxCDARBDOgYIABAFEB46BwgAEBgQgARQqwtYyRhgqRloAHAAeACAAa8BiAGHCZIBBDE1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=93BNZYjgAZifp84Pmce5yAQ&bih=698&biw=1534&client=opera&hs=CVy#imgrc=5ZgPky2kbzapmM&imgdii=hXiRhP1lgIhoEM'>
+          <a className='button' href='https://www.google.com/search?q=very+round+frog&tbm=isch&ved=2ahUKEwjIt9XHjriCAxWYz8kDHZljDkkQ2-cCegQIABAA&oq=very+round+frog&gs_lcp=CgNpbWcQAzIFCAAQgAQ6BAgjECc6BggAEAcQHjoGCAAQCBAeOggIABCxAxCDAToECAAQAzoICAAQgAQQsQM6BwgAEIoFEEM6CggAEIoFELEDEEM6CwgAEIAEELEDEIMBOg0IABCKBRCxAxCDARBDOgYIABAFEB46BwgAEBgQgARQqwtYyRhgqRloAHAAeACAAa8BiAGHCZIBBDE1LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=93BNZYjgAZifp84Pmce5yAQ&bih=698&biw=1534&client=opera&hs=CVy#imgrc=5ZgPky2kbzapmM&imgdii=hXiRhP1lgIhoEM'>
             <p>More frogs :D</p>
           </a>
         </main>
@@ -59,6 +65,7 @@ export default function examplePage() {
           .container {
             min-height: 100vh;
             padding: 0 0.5rem;
+            background: #90ee90;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -88,6 +95,7 @@ export default function examplePage() {
           }
 
           .description {
+            color: green;
             line-height: 1.5;
             font-size: 1.5rem;
           }
@@ -112,8 +120,8 @@ export default function examplePage() {
           .button:hover,
           .button:focus,
           .button:active {
-            color: #0070f3;
-            border-color: #0070f3;
+            color: #5eedd5f;
+            border-color: #5edd5f;
           }
 
           .button p {
@@ -122,7 +130,6 @@ export default function examplePage() {
           }
 
           code {
-            background: #fafafa;
             border-radius: 5px;
             padding: 0.75rem;
             font-size: 1.1rem;
