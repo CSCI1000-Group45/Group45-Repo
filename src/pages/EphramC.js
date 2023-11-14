@@ -31,7 +31,7 @@ export default function examplePage() {
 
         main {
           padding: 5rem 0;
-          background: #0000ff;
+          background: #b2a4d4;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -93,7 +93,7 @@ export default function examplePage() {
         body {
           padding: 0;
           margin: 0;
-          background: #0000ff;
+          background: #b2a4d4;
           font-family: Comic Sans MS;
         }
 
