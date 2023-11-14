@@ -32,6 +32,10 @@ export default function Home() {
             <h3>Ephram Cukier's Page&rarr;</h3>
             <p>🦛</p>
           </a>
+          <a href="/LanceK" className="card">
+            <h3>Lance Kluge's Page&rarr;</h3>
+            <p>Dogs better than Cats</p>
+          </a>
         </div>
       </main>
 
