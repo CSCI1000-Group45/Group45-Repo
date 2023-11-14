@@ -16,10 +16,6 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="/TomHolland " className="card">
-            <h3>Example About Me Page &rarr;</h3>
-            <p>Click here to navigate to an example page</p>
-          </a>
           <a href="/NickO " className="card">
             <h3>Nick O'Leary's Page &rarr;</h3>
             <p>hamburger</p>
