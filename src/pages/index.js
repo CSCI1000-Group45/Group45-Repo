@@ -13,6 +13,7 @@ export default function Home() {
 
         <p className="description">
           By Liam Sweeney, Ephram Cukier, Nick O'Leary, and Lance Kludge
+          https://celebrated-kringle-bf6122.netlify.app/
         </p>
 
         <div className="grid">
